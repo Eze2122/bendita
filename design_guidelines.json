@@ -1,0 +1,54 @@
+{
+  "project_name": "Bendita Accesorios Store",
+  "app_type": "hybrid_fullstack",
+  "theme": "Light & Dark Editorial Mode with Cream, Jet Black, Terracotta & Warm Taupe Accents",
+  "typography": {
+    "headings": "Playfair Display, Cormorant Garamond",
+    "body": "Plus Jakarta Sans, Inter",
+    "hierarchy": {
+      "H1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-serif",
+      "H2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-serif",
+      "H3": "text-xl sm:text-2xl font-serif",
+      "H4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-neutral-600 dark:text-neutral-300",
+      "caption": "text-xs tracking-[0.2em] uppercase font-mono"
+    }
+  },
+  "colors": {
+    "primary": "#1A1A1A",
+    "accent": "#C48CB3",
+    "terracotta": "#B85D34",
+    "background_light": "#FAF9F5",
+    "background_dark": "#121212",
+    "surface_light": "#FFFFFF",
+    "surface_dark": "#1E1E1E",
+    "border_subtle": "rgba(26, 26, 26, 0.08)"
+  },
+  "official_assets": {
+    "logo_url": "https://customer-assets-lxgj4vgw.emergentagent.net/job_97e84351-f6a7-46f7-9437-7393578f3477/artifacts/wv9062ne_Bendita-1-logo-01.webp",
+    "sublogo_url": "https://customer-assets-lxgj4vgw.emergentagent.net/job_97e84351-f6a7-46f7-9437-7393578f3477/artifacts/yjctgdil_Bendita-1-sublogo-01.webp"
+  },
+  "image_urls": {
+    "editorial_hero": "https://images.unsplash.com/photo-1619630723593-eb73d4f2ca95?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "category_mujeres": "https://images.unsplash.com/photo-1578432158087-8087a7543075?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "category_hombres": "https://images.unsplash.com/photo-1760721943467-9269733a5848?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "collection_detail": "https://images.unsplash.com/photo-1598057886905-db12e57d8f42?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "components": [
+    "Navbar with official logo, category links, search trigger, cart drawer trigger, and admin access",
+    "Editorial Hero Section with immersive imagery, brand tagline, and CTA",
+    "Brand Story / Essence Section highlighting modern, urban, feminine & masculine styling",
+    "Inspiration Categories grid with clear 'Próximamente' badges",
+    "Featured Editorial Product Showcase (Próximamente / Catalog Ready)",
+    "Full Catalog & Category Filter system (Mujer, Hombre, Aros, Collares, Anillos, Pulseras, Dijes, Accesorios)",
+    "Interactive Functional Cart Drawer with Subtotal, Total, Quantity modifier, and Checkout Simulation",
+    "Comprehensive Admin Dashboard for non-technical users to manage products, categories, stock, prices, variants, and editorial flags (Nuevo, Destacado, Oferta)"
+  ],
+  "universal_guidelines": [
+    "Every interactive and key informational element MUST include a data-testid attribute",
+    "Avoid fully transparent backgrounds on headers or sticky menus; use rich glassmorphism (backdrop-blur-xl bg-white/80 or bg-zinc-950/80 with subtle borders)",
+    "Apply generous spacing (p-8, p-12, gap-8) for an editorial luxury feel",
+    "Ensure all buttons and inputs have clear hover, focus, and active contrast states",
+    "Do not invent commercial prices or stock on store load; use clean Próximamente / Catalog Ready structure ready for real management via Admin"
+  ]
+}
