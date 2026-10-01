@@ -22,6 +22,7 @@ Crear desde cero una tienda online profesional para Bendita Accesorios usando el
 - Ajuste posterior: el segundo logo ahora reutiliza el PNG transparente correcto del banner y todos los textos marrones fueron convertidos a negro; la comprobación visual detectó cero textos marrones.
 - Ajuste posterior: toda la interfaz usa fondo blanco, manteniendo las fotografías editoriales; el segundo logo se muestra directamente sobre blanco con transparencia real y la comprobación confirmó cero textos marrones.
 - Ajuste posterior: la imagen editorial compartida por las áreas “Hombre” ahora muestra claramente a un hombre con estilo masculino; la imagen de “Mujer” se mantuvo intacta.
+- Ajuste posterior: el nuevo archivo `Bendita-2-mda-logo-01.webp` se usa únicamente como logo principal grande del banner (400×400, proporción conservada); el logo superior y los dos lugares del sublogo permanecen sin cambios.
 
 ## Backlog priorizado
 - P0: Añadir autenticación y permisos para proteger `/admin` antes de publicar el catálogo real.

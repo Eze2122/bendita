@@ -8,6 +8,7 @@ h2,.intro h2,.intro h2 i,.section-heading h2,.social-section h2,.admin-form h2,.
 /* Text-only adjustment: remove brown from every text treatment */
 .eyebrow,.main-nav a:hover,.category-list button:hover,.category-list button span,.cart-drawer em,.admin-form label small,.product-card .eyebrow{color:var(--ink)}
 .category-feature .eyebrow{color:#fff}
+ .hero-logo{width:400px;height:400px;max-width:100%;object-fit:contain;object-position:left center;margin-bottom:28px}
  .primary-button{background:#fff;color:var(--ink)}
  .primary-button:hover{background:#fff;border-color:var(--ink);color:var(--ink)}
  .outline-button:hover{background:#fff;color:var(--ink)}
