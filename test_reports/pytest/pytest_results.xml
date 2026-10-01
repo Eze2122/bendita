@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="4.761" timestamp="2026-10-01T13:50:39.674723+00:00" hostname="agent-env-b2de971c-04fc-455f-a15a-44ea9680c157"><testcase classname="tests.test_bendita_api" name="test_catalog_crud_and_categories" time="1.989" /></testsuite></testsuites>

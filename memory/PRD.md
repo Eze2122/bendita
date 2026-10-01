@@ -1,0 +1,25 @@
+# Bendita Accesorios — PRD
+
+## Problema original
+Crear desde cero una tienda online profesional para Bendita Accesorios usando el logo y sublogo oficiales, sin inventar productos, precios, stock ni promociones. La tienda debe ser editorial, responsive, preparada para crecer y contar con una administración sencilla de productos y categorías sin editar código.
+
+## Decisiones de arquitectura
+- Frontend React con React Router, Axios y CSS editorial responsive.
+- Backend FastAPI con MongoDB mediante Motor; los documentos exponen IDs string y excluyen `_id`.
+- Catálogo persistente con productos, categorías y borrado lógico de productos.
+- Carga de imágenes mediante almacenamiento de objetos administrado; MongoDB conserva la referencia canónica.
+- La ruta `/admin` permite administrar el catálogo sin modificar código. No se añadió autenticación porque no fue solicitada.
+
+## Implementado
+- Home Bendita completamente nueva con logos oficiales, hero editorial, categorías, filtros, sección de marca, espacios sociales preparados y footer.
+- Estados vacíos con imágenes de inspiración claramente marcadas como “Próximamente”, sin precios ni datos comerciales inventados.
+- Bolsa lateral funcional con estado vacío, cantidades, eliminación y estructura de total preparada.
+- API CRUD de productos y categorías, con campos para nombre, descripción, precio opcional, categoría, audiencia, stock, galería, variantes y flags Nuevo/Destacado/Oferta.
+- Panel de administración con crear, editar, eliminar, carga de imágenes, vista previa y alta de categorías.
+- Validaciones de sintaxis, lint y pruebas funcionales frontend/backend completadas.
+
+## Backlog priorizado
+- P0: Añadir autenticación y permisos para proteger `/admin` antes de publicar el catálogo real.
+- P1: Incorporar detalle de producto, checkout y método de pago cuando existan productos reales.
+- P1: Añadir configuración editable de Instagram, WhatsApp y otros enlaces desde el panel.
+- P2: Añadir variantes estructuradas y filtros avanzados de catálogo.
