@@ -6,7 +6,7 @@ import "@/App.css";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const LOGO = "/bendita-logo-transparent.png";
-const SUBLOGO = "/bendita-sublogo-transparent.png";
+const SUBLOGO = "/bendita-logo-transparent.png";
 const HERO = "https://images.unsplash.com/photo-1619630723593-eb73d4f2ca95?crop=entropy&cs=srgb&fm=jpg&q=85";
 const IMAGES = ["https://images.unsplash.com/photo-1578432158087-8087a7543075?crop=entropy&cs=srgb&fm=jpg&q=85", "https://images.unsplash.com/photo-1760721943467-9269733a5848?crop=entropy&cs=srgb&fm=jpg&q=85", "https://images.unsplash.com/photo-1598057886905-db12e57d8f42?crop=entropy&cs=srgb&fm=jpg&q=85"];
 
