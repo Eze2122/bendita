@@ -20,6 +20,7 @@ Crear desde cero una tienda online profesional para Bendita Accesorios usando el
 - Ajuste visual solicitado: H1 en `#A782DA`, extraído del lila del logo oficial, H2 en negro, sin cambios en fondos, estructura, botones ni animaciones.
 - Logos oficiales convertidos a PNG RGBA transparente y usados directamente desde `/bendita-logo-transparent.png` y `/bendita-sublogo-transparent.png`.
 - Ajuste posterior: el segundo logo ahora reutiliza el PNG transparente correcto del banner y todos los textos marrones fueron convertidos a negro; la comprobación visual detectó cero textos marrones.
+- Ajuste posterior: toda la interfaz usa fondo blanco, manteniendo las fotografías editoriales; el segundo logo se muestra directamente sobre blanco con transparencia real y la comprobación confirmó cero textos marrones.
 
 ## Backlog priorizado
 - P0: Añadir autenticación y permisos para proteger `/admin` antes de publicar el catálogo real.
