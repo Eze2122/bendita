@@ -5,7 +5,7 @@ import { ArrowUpRight, ChevronDown, Instagram, Menu, Minus, Plus, Search, Shoppi
 import "@/App.css";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
-const LOGO = "/bendita-logo-transparent.png";
+const LOGO = "https://customer-assets-jai6qajn.emergentagent.net/job_bendita-coleccion/artifacts/4hv5m2e5_Bendita-2-mda-logo-01.webp";
 const SUBLOGO = "/bendita-sublogo-transparent.png";
 const BANNER_LOGO = "https://customer-assets-jai6qajn.emergentagent.net/job_bendita-coleccion/artifacts/4hv5m2e5_Bendita-2-mda-logo-01.webp";
 const HERO = "https://images.unsplash.com/photo-1619630723593-eb73d4f2ca95?crop=entropy&cs=srgb&fm=jpg&q=85";
